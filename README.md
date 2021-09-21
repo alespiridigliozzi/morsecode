@@ -11,7 +11,7 @@ Built in JavaScript. The user will type the sentence in the English language tex
 ## The Code :white_square_button:
 We use an object with all the letters, numbers and symbols as the Object's keys, and their corresponding morse codes as the Object's values.
 
-```
+```javascript
 const morseCode = {
     a: ".-",
     b: "-...",
@@ -22,9 +22,9 @@ const morseCode = {
 }
 ```
 
-To display the result, we use a function `translate()` that will store the inputs values inside a variable and will then map the variable and return the Object's value for each key that matched the user input.
+To display the result, we use a function `translate()` that will store the inputs' values inside a variable and will then map the variable and return the Object's values for each key that matches the user input. If a character/key is invalid, it will output **"?"**.
 
-```
+```javascript
 const translate = () => {
 	userInput.addEventListener('input', () => {
 	 const characters = userInput.value.split('')
