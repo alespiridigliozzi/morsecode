@@ -1,0 +1,5 @@
+@use "./variables" as *;
+
+@mixin laptop {
+    @media (min-width: $breakpoint-laptop) { @content; }
+}

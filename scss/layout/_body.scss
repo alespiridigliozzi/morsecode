@@ -1,0 +1,52 @@
+@use "../abstracts/variables" as *;
+@use "../abstracts/mixins" as *;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+
+body {
+    background-color: $bg-color;
+    color: $font-color;
+    font-size: 18px;
+    font-family: $main-font;
+}
+
+.headline {
+    color: $accent-color;
+    margin: 5vh auto;
+    text-align: center;
+}
+
+main {
+    margin: 10vh auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 5vh;
+
+    @include laptop {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: start;
+        width: 100%;
+        gap: 2.5vh;
+
+        textarea {
+            width: 100%;
+            height: 30vh;
+            background-color: $secondary-color;
+            border: none;
+            outline: none;
+            border-radius: 10px;
+            color: $accent-color;
+            padding: 20px;
+            resize: none;
+            font-size: 16px;
+        }
+    }
+}
