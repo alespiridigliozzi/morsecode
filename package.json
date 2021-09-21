@@ -1,6 +1,7 @@
 {
   "name": "morsecode",
   "version": "1.0.0",
+  "type": "module",
   "description": "Morse Code Translator",
   "main": "app/main.js",
   "dependencies": {

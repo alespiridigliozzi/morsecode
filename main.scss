@@ -1,0 +1,44 @@
+@use "./scss/abstracts/variables" as *;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $bg-color;
+    color: $font-color;
+    font-size: 18px;
+    font-family: $main-font;
+}
+
+main {
+    margin: 10vh auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+
+.headline {
+    margin: 5vh auto;
+    text-align: center;
+    color: $accent-color;
+}
+
+textarea {
+    padding: 20px;
+    letter-spacing: 2px;
+    font-size: 18px;
+    resize: none;
+    color: $accent-color;
+    height: 40vh;
+    width: 90%;
+    margin: 20px auto;
+    border-radius: 10px;
+    background-color: $bg-color;
+    outline: none;
+    border: none;
+}
