@@ -36,5 +36,5 @@ const translate = () => {
 translate();
 ```
 
-### Playing the Morse Code
+## Playing the Morse Code
 The user can play the morse code in their browser by pressing the Play button. This was done using a library called **morseSynth** by [netAction](https://github.com/netAction/morseSynth).
