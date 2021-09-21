@@ -1,6 +1,6 @@
 # Morse Code Translator
 
-![morsecode](https://github.com/alexsp92/morsecode/blob/main/morsecodeimg.png)
+![morsecode](https://github.com/alexsp92/morsecode/blob/main/morsecodepreview.png)
 
 ## The Design :large_blue_diamond:
 The Morse Code translator was designed with a **mobile-first approach**, using a _css-grid_ layout.
