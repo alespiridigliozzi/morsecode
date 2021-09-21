@@ -49,4 +49,18 @@ main {
             font-size: 16px;
         }
     }
+
+    .legend {
+        grid-column: 1 / -1;
+
+        ul {
+            list-style-type: none;
+
+            span {
+                font-weight: bold;
+                color: $accent-color;
+                padding: 0 10px;
+            }
+        }
+    }
 }
