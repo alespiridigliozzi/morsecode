@@ -3,7 +3,9 @@ export { translate }
 
 const userInput = document.querySelector('#user-input');
 const translation = document.getElementById('translation');
-const button = document.querySelector('button');
+const button = document.querySelector('#play').addEventListener('click', () => {
+	play()
+});
 
 const translate = () => {
 	userInput.addEventListener('input', () => {
@@ -14,3 +16,10 @@ const translate = () => {
 	})
 }
 translate();
+
+const play = () => {
+	let morse = new morseSynth();
+	morse.play(userInput.value);
+}
+
+play();

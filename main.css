@@ -50,6 +50,13 @@ main .container textarea {
   resize: none;
   font-size: 16px;
 }
+main #play {
+  border: none;
+  background-color: #222831;
+  color: #21E6C1;
+  margin-left: 10px;
+  cursor: pointer;
+}
 main .legend {
   grid-column: 1/-1;
 }

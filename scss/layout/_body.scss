@@ -50,6 +50,14 @@ main {
         }
     }
 
+    #play {
+        border: none;
+        background-color: $bg-color;
+        color: $accent-color;
+        margin-left: 10px;
+        cursor: pointer;
+    }
+
     .legend {
         grid-column: 1 / -1;
 
