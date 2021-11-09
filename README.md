@@ -1,4 +1,5 @@
 # Morse Code Translator
+[Check out the Live Demo Here](https://alessandrothedev.github.io/morsecode/)
 
 ![morsecode](https://github.com/alexsp92/morsecode/blob/main/morsecodepreview.png)
 
